@@ -1,0 +1,29 @@
+{
+  "name": "conversions",
+  "version": "1.0.0",
+  "description": "Module to add different conversion functionalities",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugan86/conversions.git"
+  },
+  "keywords": [
+    "conversions",
+    "node",
+    "javascript",
+    "npm"
+  ],
+  "author": "Anartz Mugika Ledo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugan86/conversions/issues"
+  },
+  "homepage": "https://github.com/mugan86/conversions#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
