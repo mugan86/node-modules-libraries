@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mugan86/conversions.git"
+    "url": "git+https://github.com/mugan86/node-modules-libraries.git"
   },
   "keywords": [
     "conversions",
@@ -19,9 +19,9 @@
   "author": "Anartz Mugika Ledo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mugan86/conversions/issues"
+    "url": "https://github.com/mugan86/node-modules-libraries/issues"
   },
-  "homepage": "https://github.com/mugan86/conversions#readme",
+  "homepage": "https://github.com/mugan86/node-modules-libraries#readme",
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
