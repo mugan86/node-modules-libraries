@@ -30,22 +30,3 @@ describe('Check functions', () => {
         expect(index.kelvinToFarenheit(280)).to.equal(44.33000000000004);
     });
 });
-
-
-module.exports = {
-   
-
-
-    /**
-     * 0 K − 273,15 = -273,1 °C
-     */
-    kelvinToCelsius: function (temperature) {
-        return temperature - 273.15;
-    },
-    /**
-     * (0 K − 273,15) × 9 / 5 + 32 = -459,7 °F
-     */
-    kelvinToFarenheit: function (temperature) {
-        return this.celsiusToFarenheit(this.kelvinToCelsius(temperature))
-    }
-}
