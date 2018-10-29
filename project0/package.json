@@ -1,0 +1,29 @@
+{
+  "name": "math-operations-simple",
+  "version": "1.0.0",
+  "description": "Simple node module to add +, -, * and / operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugan86/node-modules-libraries.git"
+  },
+  "keywords": [
+    "math",
+    "js",
+    "node",
+    "module",
+    "node",
+    "module",
+    "course",
+    "practice"
+  ],
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugan86/node-modules-libraries/issues"
+  },
+  "homepage": "https://github.com/mugan86/node-modules-libraries#readme"
+}
