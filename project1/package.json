@@ -1,6 +1,6 @@
 {
   "name": "simple-temperature-conversor",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Module to add different conversion functionalities",
   "main": "index.js",
   "scripts": {
