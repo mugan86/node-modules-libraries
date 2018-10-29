@@ -5,7 +5,8 @@ In this module we have three types temperature: Celsius, Farenheit and Kelvin.
 To use this module, we must follow this instructions:
 
 * 1.- Create *.js file in desire location.
-* 2.- Open the *.js file and add import to start to use library.
+* 2.- Install npm module : ```npm i simple-temperature-conversor --save```
+* 3.- Open the *.js file and add import to start to use library.
 ```
 var conversions = require('simple-temperature-conversor');
 var round = require('simple-temperature-conversor/decimal');
@@ -13,7 +14,7 @@ const defaultDecimals = -2;
 
 ```
 
-* 3.- If you import correctly library, use example:
+* 4.- If you import correctly library, use example:
 ```
 console.log(conversion.farenheitToKelvin(0));
 console.log(conversion.farenheitToCelsius(123));
