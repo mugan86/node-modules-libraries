@@ -1,0 +1,28 @@
+{
+  "name": "utilities-library",
+  "version": "1.0.0",
+  "description": "Many utilities package in this library.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "mocha --reporter spec",
+    "compodoc": "./node_modules/.bin/compodoc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugan86/node-modules-libraries.git"
+  },
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com> (https://mugan86.github.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugan86/node-modules-libraries/issues"
+  },
+  "homepage": "https://github.com/mugan86/node-modules-libraries#readme",
+  "devDependencies": {
+    "@compodoc/compodoc": "^1.1.6",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.1.6"
+  }
+}
