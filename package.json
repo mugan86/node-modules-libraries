@@ -1,0 +1,28 @@
+{
+  "name": "simple-math-operations",
+  "version": "1.0.0",
+  "description": "Simple math operations node module write in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugan86/node-modules-libraries.git"
+  },
+  "keywords": [
+    "math",
+    "node",
+    "module",
+    "javascrip",
+    "js",
+    "course",
+    "practice"
+  ],
+  "author": "Anartz Mugika Ledo <mugan86@gmail.com> (https://mugan86.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugan86/node-modules-libraries/issues"
+  },
+  "homepage": "https://github.com/mugan86/node-modules-libraries#readme"
+}
