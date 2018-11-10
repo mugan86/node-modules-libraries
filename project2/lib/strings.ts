@@ -6,7 +6,13 @@ export function getHello () : string {
 }
 
 /**
- * 
+ * Replace input text with select char or string text.
+ * @example
+ * This is a good examples:
+ * value: 'anartz' / charToReplace: '*' ---> '******'
+ * value: 'anartz' / charToReplace: '/' ---> '/////'
+ * value: 'anartz' / charToReplace: '-' ---> '------'
+ * value: 'anartz mugika' / charToReplace: '*' ---> '*************'
  * @param value 
  * @param charToReplace 
  */
@@ -65,4 +71,39 @@ export function invertText(text: string): string {
  */
 export function toStringArray(arr: any, beetweenValue: string = ''): string {
     return arr.join(beetweenValue);
+}
+
+/**
+ * In this function we will concat pass values in one string
+ * @example
+ * This is a good examples:
+ * value1: 'Anartz' / value2: 'Mugika' ---> 'Anartz Mugika'
+ * value1: 'Hello' / value2: 'World' ----> 'Hello World'
+ * @param value1 First value to concat
+ * @param value2 Second value to concat
+ */
+export function concatValues(value1: string, value2: string): string {
+    return value1.concat(" ", value2);
+}
+
+/**
+ * Extract text select position (start in 1) and take value.
+ * @example
+ * This is a good examples:
+ * position: 1 / text: 'Anartz'
+ * @param position position (start in 1) when use to extract from text
+ * @param text Text to use to extract select position char
+ */
+export function getChar(position: number, text: string): string {
+    if (position < 1) {
+        return 'You must input position more than 0 to take char';
+    }
+    const textLength = getLength(text);
+    if (textLength === 0) {
+        return 'Imposible extract char from empty string';
+    }
+    if ( textLength < position) {
+        return `Select position to extract value is not correct. The text length is ${ textLength } chars and you select to get ${position}  position`
+    }
+    return text.charAt(position - 1);
 }
